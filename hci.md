@@ -15,7 +15,7 @@ In a Nutanix environment, a virtual machine called the **Controller VM (CVM)** r
 | :-------------- | :---------------------------------------------------- | :------------------------------------------------------------------------------------------------ |
 | **vCPU** | 8 vCPU (4 cores)                                      | For a general-purpose configuration. The recommended value varies depending on the features used. |
 | **Memory** | 32 GB                                                 | Enabling features like deduplication and compression may require more memory.                     |
-| **Storage** | ~200GB+ for the CVM boot disk (SSD/NVMe recommended) | The CVM requires its own boot space, separate from the data disks.                                |
+| **Storage** | ~200GB+ for the CVM boot disk (SSD/NVMe recommended)    | The CVM requires its own boot space, separate from the data disks.                                |
 
 **Key Point:** The resources for the Nutanix CVM are essential for system stability. Since requirements change based on the AOS (Acropolis Operating System) version and configuration, it is important to use sizing tools to estimate the appropriate resources during deployment.
 
