@@ -1,5 +1,3 @@
-Of course. Here is the summary in English, formatted in Markdown.
-
 ```markdown
 # Minimum Resource Requirements for HCI Product Controllers
 
